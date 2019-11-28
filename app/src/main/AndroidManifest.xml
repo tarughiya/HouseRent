@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ansarker.github.io.houserent">
+    package="team.project.io.beneres">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,28 +11,28 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="beneres"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="team.project.io.beneres.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignupActivity" />
+        <activity android:name="team.project.io.beneres.SignupActivity" />
         <activity
-            android:name=".Dashboard"
+            android:name="team.project.io.beneres.Dashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Profile" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".HomeDetailsActivity" />
-        <activity android:name=".PostAdActivity" />
-        <activity android:name=".MyPosts" />
-        <activity android:name=".MyAdDetails"></activity>
+        <activity android:name="team.project.io.beneres.Profile" />
+        <activity android:name="team.project.io.beneres.HomeActivity" />
+        <activity android:name="team.project.io.beneres.HomeDetailsActivity" />
+        <activity android:name="team.project.io.beneres.PostAdActivity" />
+        <activity android:name="team.project.io.beneres.MyPosts" />
+        <activity android:name="team.project.io.beneres.MyAdDetails"></activity>
     </application>
 
 </manifest>
